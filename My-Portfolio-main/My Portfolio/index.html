@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristine Jeeg Portal | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Kristine.</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="download-btn">Download CV ↓</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="script-text">Hello, I'm ♡</p>
+            <h1>Kristine Jeeg Portal</h1>
+            <h3>4th Year IT student</h3>
+
+            <p class="description">
+                I create beautiful, responsive and user-friendly
+                websites that bring ideas to life.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">View My Work →</a>
+                <a href="#contact" class="secondary-btn">Contact Me ✉</a>
+            </div>
+
+            <div class="social-links">
+                <span>Let's connect</span>
+                <a href="https://github.com/kjzportal24" aria-label="GitHub">GH</a>
+                <a href="https://www.instagram.com/kristineetina" aria-label="Instagram">Insta</a>
+                <a href="https://instagram.com/" aria-label="Instagram">◎</a>
+                <a href="https://twitter.com/" aria-label="Twitter">𝕏</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-circle"></div>
+            <img src="Portal.jfif" alt="My Image">
+                
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+                alt="Creative workspace">
+        </div>
+
+        <div class="about-content">
+            <span class="section-label">ABOUT ME</span>
+            <h2>Turning ideas into<br>
+                meaningful digital experiences. ♡</h2>
+
+            <p>
+                A 4th year BSIT student from Ateneo de
+                Davao University. Aside from being a student, I'm also a frontend developer
+                who loves turning beautiful
+                designs into functional websites. 
+            </p>
+            <p>I am persistent and goal achiever person. I am someone who likes
+                to seek out new challenges, a quick learner and I constantly train myself to
+                quickly adapt to new environments. This is a representation of all that I've learned
+                and accomplished as an Information Technology student.</p>
+
+            <a href="#experience" class="secondary-btn">
+                More About Me ♙
+            </a>
+        </div>
+
+        <div class="about-features">
+            <div class="feature">
+                <div class="feature-icon">&lt;/&gt;</div>
+                <div>
+                    <h4>Clean Code</h4>
+                    <p>I write clean, semantic and maintainable code.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">▣</div>
+                <div>
+                    <h4>Responsive Design</h4>
+                    <p>I build websites that look great on all devices.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">♡</div>
+                <div>
+                    <h4>Problem Solver</h4>
+                    <p>I love solving problems and finding simple solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="section-heading">
+            <div>
+                <span class="section-label">MY PROJECTS</span>
+                <h2>Things I've Built</h2>
+            </div>
+            <a href="#contact" class="view-all">View All Projects →</a>
+        </div>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img src="Donation App.png" alt="My Image"
+                     alt="Donation App preview">
+                <div class="project-info">
+                    <h3>Mobile Donation App</h3>
+                    <p>A platform for in-kind/ services donation drive in Davao City. 
+                        Donors have access to the latest donation drives by trusted organization's and local government units.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700"
+                     alt="Portfolio website preview">
+                <div class="project-info">
+                    <h3>Kristine Portfolio</h3>
+                    <p>A minimal portfolio website template.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="Food App.png" alt="My Image"
+                     alt="Food app preview">
+                <div class="project-info">
+                    <h3> Fooddie App</h3>
+                    <p>A food application with app bar, my account, Tile list view, custom widget..</p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Tailwind CSS</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Skills and Experience -->
+    <section class="skills-experience section">
+
+        <div class="skills" id="skills">
+            <span class="section-label">MY SKILLS</span>
+            <h2>Technologies I Know</h2>
+
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-icon html">5</div>
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon css">3</div>
+                    <p>CSS</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon js">JS</div>
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon canva">C</div>
+                    <p>Canva</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon tailwind">≈</div>
+                    <p>Tailwind CSS</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience" id="experience">
+            <span class="section-label">EXPERIENCE</span>
+            <h2>My Journey</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Region 12 NCSC Volunteer</h4>
+                    <span>2022 – 2023</span>
+                    <p>Transferred data from paper formats into
+                        database systems to keep digital formats.</p>
+                    <p>Engaged with senior citizen's to better
+                        understand needs and deliver excellent service.</p>
+                    <p>Organized files, faxed reports and scanned
+                        documents into document management system.</p>
+                    <p>Monitored databases to identify and resolve
+                        problems.</p>
+
+                </div>
+
+                <div class="timeline-item">
+                    <h5>Frontend Developer (Freelance)</h5>
+                    <span>2023 – 2025</span>
+                    <p>Building responsive websites and web applications
+                       for clients around the world.</p>
+                    <p>Improving website appearance, functionality, and user experience.</p>
+                    <p>Collaborating with clients to understand their requirements.</p>
+
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Dental Assistant</h4>
+                    <span>2025 – Present</span>
+                    <p>Assisting the dentist during dental procedures.</p>
+                    <p>Welcoming patients and preparing them for treatment.</p>
+                    <p>Scheduling appointments and managing patient records.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div>
+            <span class="section-label">LET'S WORK TOGETHER</span>
+            <h2>Have a project in mind?</h2>
+            <p>I'd love to hear about your ideas and help bring them to life.</p>
+        </div>
+
+        <a href="mailto:your-email@example.com" class="primary-btn">
+            Get In Touch ✉
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Tine Portal. All rights reserved.</p>
+        <div>
+            <a href="#home">Privacy Policy</a>
+            <a href="#home">Terms of Use</a>
+        </div>
+    </footer>
+
+</body>
+</html>
